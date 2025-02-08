@@ -1,0 +1,305 @@
+.page{
+    margin: auto;
+    width: 1450px;
+    margin:none;
+    
+    
+}
+
+
+   a{
+    text-decoration: none;
+   }
+  
+   
+.topnav{
+    color: white;
+      
+   
+    background-color: black;
+   /*  padding: 20px; */
+    align-items: center;
+   /*  position: absolute; */
+   font-family: 'Aref Ruqaa', serif;
+   font-weight: bolder;
+ 
+}
+.lengthcap{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 1450px;
+}
+
+.topnav ul{
+    display: flex;
+
+  
+    text-decoration: none;
+    
+    
+}
+.topnav li{
+  display: contents;
+ 
+  font-size: 25px;
+  font-family: 'Aref Ruqaa', serif;
+  font-weight: bolder;
+
+ 
+}
+.topnav a{
+  text-decoration: none;
+  color: white;
+ display:block;
+ 
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+.topnav a.active {
+background-color:#46005b;
+color: white;
+border-radius: 5px;
+}
+.topnav a:hover{
+display: block;
+background-color:#710193; 
+color: white;
+border-radius: 5px;
+box-shadow: 0px 0px 13px 2px#710193; 
+color: black;
+}
+.topnav .logo a{
+display: contents;
+text-align: left;
+
+}
+.topnav .logo h3:hover{
+color: #710193;
+}
+.topnav .logo h3::after{
+content:"";
+width:0;
+height: 3px;
+background-color: #710193;
+margin:0;
+display: block;
+
+
+}
+
+.topnav .logo h3:hover::after {
+width:330px;
+transition: width 0.3s linear;
+
+}
+
+body{
+  background-color: #46005b;
+  margin: 0;
+}
+
+.topnav h3{
+
+ margin: 40px;
+ font-size: 30px;
+ color:#710193;
+ font-family: 'Monoton', cursive;
+}
+
+
+.main{
+    margin-top: 20px;
+    height: fit-content;
+    border-width: 1px;
+    margin-bottom: 20px;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.categories{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 10px;
+  
+}
+
+.cats{
+   
+    text-align: center;
+    color: white;
+ height: 300px;
+ margin: 10px;
+
+}
+.cats:hover{
+
+ opacity: 0.5;
+ transition: all 300ms ease-in-out;
+ height: 94%;
+ 
+ opacity: 0.8;
+}
+.cats h2{
+  margin: 120px;
+position: absolute;
+ /*  
+  top: 65%;
+  left: 28%; */
+  font-size: 40px;
+ /*  padding: 100px; */
+  font-weight: bolder;
+  
+  -webkit-text-stroke-color: black;
+  
+  /* background-color: rgba(0, 0, 0, 0.27); */
+  border-radius: 5px;
+  text-shadow: 2px 2px #710193;
+  
+
+  
+  
+}
+.cats .overlay2{
+  position: relative;
+  text-align: center;
+}
+.catype{
+ 
+
+}
+
+.footer{
+  margin-top: 20px;
+    height: 200px;
+     background-color: black;
+ position: relative; 
+
+ text-align: center;
+
+}
+.aboutinfo{
+  display: flex;
+ 
+  color: white;
+  font-size: 25px;
+  justify-content: center;
+}
+.aboutinfo p{
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20px;
+  
+
+}
+.aboutinfo a{
+  color: white;
+}
+.aboutinfo a:hover{
+  text-decoration: underline;
+  color:#710193;  ;
+}
+
+.icons{
+  display: flex;
+justify-content: center;
+ 
+
+ 
+}
+
+.icons li{
+
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+  
+  
+}
+.icons li i{
+  font-size: 40px;
+  opacity: 0.8;
+  color: white;
+}
+.icons li i:hover{
+  color:#710193; 
+  
+}
+
+
+.overlay{
+  position: absolute;
+  top: 0;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.611);
+  padding: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+
+}
+
+
+
+/*   .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  } */
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+  .text {
+   color: #f2f2f2;
+    font-size: 20px;
+    padding: 20px;
+    position: absolute;
+   
+    width: 95.7%;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0; 
+    
+    
+  }
+  .text:hover{
+    color:#710193;
+  }
+  
+  
+
+  
+
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+
+
