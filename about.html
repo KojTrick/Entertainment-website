@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - KPEntertainment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Mulish:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="sources">
+    <div class="topnav">
+        <div class="lengthcap">
+            <div class="logo"><a href="index.html"><h3>KPEntertainment</h3></a></div>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="categories.html"><li>Categories</li></a>
+                <a href="about.html" class="active"><li>About Us</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+                <a href="login.html"><li>Login</li></a>
+            </ul>
+        </div>
+    </div>
+    <div class="page">
+        <p class="status"><span id="statusText">Loading the latest news…</span><a href="about.html">Where the news comes from &rarr;</a></p>
+
+        <h1 class="about-title">About Us</h1>
+        <div class="about-layout">
+            <aside class="about-side">
+                <h2 class="src-title">Sources</h2>
+                <ul class="sources-text" id="sources"></ul>
+            </aside>
+            <section class="artists-wrap" aria-label="Top Billboard artists">
+                <h2>Top Billboard Artists</h2>
+                <p class="artists-note">Top 100 artists on the Billboard Artist 100 chart. Tap the small link under a name for their songs.</p>
+                <div class="artist-grid" id="artistGrid"></div>
+            </section>
+        </div>
+
+        <div class="prose about-disclaimer"><h2>Disclaimer</h2>
+                    <p>KPEntertainment does not write, check or endorse these stories and does not claim any of them is true, accurate or complete. Headlines, excerpts and pictures belong to their publishers. Every headline links to the original article.</p></div>
+
+        <div class="footer">
+            <div class="aboutinfo">
+                <a href="categories.html">Categories</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="icons">
+                <a href="https://www.snapchat.com" aria-label="Snapchat"><i class="fa fa-snapchat"></i></a>
+                <a href="https://www.facebook.com" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.pinterest.com" aria-label="Pinterest"><i class="fa fa-pinterest"></i></a>
+            </div>
+            <p class="disclaimer">KPEntertainment does not write, check or endorse the news shown here. Headlines come automatically from third-party sites, belong to their publishers and link to the original articles. We do not claim any of it is true.</p>
+        </div>
+    </div>
+    <script src="news.js"></script>
+    <script src="artists.js"></script>
+</body>
+</html>
